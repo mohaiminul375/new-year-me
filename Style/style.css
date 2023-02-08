@@ -1,4 +1,42 @@
-.test{
-    color: blue;
-    background-color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
 }
+/* header start */
+/* background images */
+.header{
+    height: 650px;
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+/* bannner contennt */
+.banner-text{
+    /* border: 3px solid red; */
+    width: 30%;
+    text-align: right;
+    margin-right: 60px;
+}
+.banner-title{
+    font-weight: 700;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner-description{
+    margin-top:25px ;
+    font-weight: 400;
+}
+.btn-primary{
+    margin-top: 30px;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+/* header end */
