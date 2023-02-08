@@ -40,3 +40,23 @@
     font-size: 18px;
 }
 /* header end */
+
+/* main start */
+.falures-year{
+margin-top: 100px;
+}
+/* falurs-container */
+.falures-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* falures-content-text */
+.falures-content{
+    width: 40%;
+}
+.falures-cheaklist{
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* falurs end */
