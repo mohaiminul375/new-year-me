@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Roboto Mono', monospace;
 }
+
 /* header start */
 /* background images */
 .header{
@@ -16,7 +17,6 @@
 }
 /* bannner contennt */
 .banner-text{
-    /* border: 3px solid red; */
     width: 30%;
     text-align: right;
     margin-right: 60px;
@@ -42,6 +42,8 @@
 /* header end */
 
 /* main start */
+
+/* intro */
 .intro{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -66,11 +68,12 @@
 .intro-content{
     padding: 40px;
 }
+/* intro-img */
 .intro-img{
     margin-left: 30px;
 }
 
-
+/* falures-section */
 .falures-year{
 margin-top: 100px;
 margin-bottom: 100px;
@@ -90,12 +93,11 @@ margin-bottom: 100px;
     font-family: 'Courier New', Courier, monospace;
 }
 /* falurs end */
+
 /* my-plans */
 .plans-container{
-    /* border: 2px solid red; */
     width: 90%;
     margin: 80px auto;
-    /* margin-top: 50px; */
 }
 .plans-heading{
     display:flex;
@@ -117,7 +119,6 @@ margin-bottom: 100px;
 
 /* .postivie-mindset */
 .postivie-mindset{
-    /* margin-top: 200px; */
     height: 500px;
     width: 90%;
     background-image: url(../images/gradient2.png),url(../images/watch.png);
@@ -139,6 +140,7 @@ margin-bottom: 100px;
     border: none;
     border-radius: 5px;
 }
+/* main-end */
 
 /* footer start */
 footer{
@@ -149,6 +151,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+/* footer-contact or footer content */
 .footer-content{
     width: 50%;
     padding: 30px;
@@ -165,6 +168,7 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+/* footer-form */
 .footer-form{
     width: 50%;
     padding: 30px;
@@ -189,3 +193,4 @@ input[type="submit"]{
     color: #F15B22;
     font-size: 20px;
 }
+/* footer-end */
