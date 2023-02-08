@@ -44,6 +44,7 @@
 /* main start */
 .falures-year{
 margin-top: 100px;
+margin-bottom: 100px;
 }
 /* falurs-container */
 .falures-container{
@@ -87,14 +88,28 @@ margin-top: 100px;
 
 /* .postivie-mindset */
 .postivie-mindset{
+    /* margin-top: 200px; */
     height: 500px;
     width: 90%;
-    background-image: url(../images/watch.png);
+    background-image: url(../images/gradient2.png),url(../images/watch.png);
     background-repeat: no-repeat;
     margin: 50px auto;
 }
-
-
+.positive-container{
+    padding: 60px 60px;
+}
+.positive-heading{
+    color: white;
+    font-weight: bold;
+}
+.positive-btn{
+    margin: 20px;
+    color: #F15B22;
+    background:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
 
 /* footer start */
 footer{
