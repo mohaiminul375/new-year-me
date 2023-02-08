@@ -42,6 +42,35 @@
 /* header end */
 
 /* main start */
+.intro{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.intro-heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #F15B22;
+}
+.intro-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro-name{
+    color: #F15B22;
+    font-style: italic;
+    font-weight:900 ;
+}
+.intro-content{
+    padding: 40px;
+}
+.intro-img{
+    margin-left: 30px;
+}
+
+
 .falures-year{
 margin-top: 100px;
 margin-bottom: 100px;
